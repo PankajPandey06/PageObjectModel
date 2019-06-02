@@ -7,10 +7,12 @@ import org.testng.annotations.Test;
 
 import com.qa.base.TestBase;
 import com.qa.pages.BasePage;
+import com.qa.pages.SignUpPage;
 
 public class BasePageTest extends TestBase {
 
 	BasePage basePage;
+	SignUpPage signUp;
 
 	public BasePageTest() {
 

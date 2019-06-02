@@ -28,5 +28,12 @@ public class BasePage extends TestBase {
 
 		 return loginBtn.isDisplayed();
 	}
+	
+	public SignUpPage SignUpLandingpage(){
+		
+		signUpBtn.click();
+		
+		return new SignUpPage();
+	}
 
 }
