@@ -35,5 +35,10 @@ public class BasePage extends TestBase {
 		
 		return new SignUpPage();
 	}
+	
+	public LoginPage clickOnLoginBtn(){
+		loginBtn.click();
+		return new LoginPage();
+	}
 
 }

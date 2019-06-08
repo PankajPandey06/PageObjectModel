@@ -41,6 +41,13 @@ public class BasePageTest extends TestBase {
 		Assert.assertTrue(loginBtnFlag);
 	}
 
+	@Test(priority =3)
+	public void validateLoginTest(){
+		
+		basePage.clickOnLoginBtn();
+	}
+	
+	
 	@AfterMethod
 	public void tearDown() {
 

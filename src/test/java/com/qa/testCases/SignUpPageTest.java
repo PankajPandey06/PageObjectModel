@@ -29,7 +29,7 @@ public class SignUpPageTest extends TestBase {
 
 	@Test
 	public void verifyTitleOfSignUpPageTest() {
-		
+
 		basePage.SignUpLandingpage();
 		String actualTitle = signUpPage.verifyTitleOfSignUpPage();
 		Assert.assertEquals(actualTitle, properties.getProperty("signUpPageTitle"));
@@ -39,7 +39,7 @@ public class SignUpPageTest extends TestBase {
 	@AfterMethod
 	public void tearDown() {
 
-		teardown();
+//		teardown();
 
 	}
 
